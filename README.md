@@ -1,20 +1,6 @@
 # TweetSentimentExtraction
 This project is about defining the quality of a statement(tweet)
 
-
-
-To run the code: 
-I have used streamlit in order to provide good user interface.
-
-(Install all the dependencies before from requirements.txt file by using the folowing command)
-
-pip -r requirements.txt
-
-Run this command in your cmd:
-
-streamlit run app.py
-
-
 Problem Statement:
 
 Imagine there is a file full of Twitter tweets by various users and you are provided a set of words that indicates racial slurs. Can you write a program which can indicate the degree of profanity for each sentence in the file?
@@ -70,4 +56,20 @@ When it comes to the model, I am using
 
 
 The model gave me an accuracy of: 78%  for 8 epochs.
+
+
+To run the code: 
+Before running the code train the model using tweeet-extraction.ipynb file 
+
+and place the model in the same directory.
+
+I have used streamlit in order to provide good user interface.
+
+(Install all the dependencies before from requirements.txt file by using the folowing command)
+
+pip -r requirements.txt
+
+Run this command in your cmd:
+
+streamlit run app.py
 
