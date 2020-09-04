@@ -26,7 +26,7 @@ In order to classify the statements and to find the profanity of each statement 
 
 So I have taken the following dataset from kaggle:
 
-[a link](https://www.kaggle.com/kazanova/sentiment140)
+[Data set Link](https://www.kaggle.com/kazanova/sentiment140)
 
 I trained my model using this dataset.
 
